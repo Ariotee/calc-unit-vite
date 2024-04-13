@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ToModal from '../toModal/ToModal';
+import ToModal from '../modals/ToModal';
 
 const ToField: React.FC = () => {
 	const [selectTo, setSelectTo] = React.useState(false);

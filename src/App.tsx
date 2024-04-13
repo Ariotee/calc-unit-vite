@@ -12,13 +12,13 @@ function App() {
 					</div>
 
 					<div className='flex justify-between items-center'>
-						<div className='flex gap-10'>
+						<div className='relative flex gap-10'>
 							<FromField />
 							<ToField />
 						</div>
 
 						<div className=''>
-							<button className='bg-btn p-btn rounded-btn' type='submit'>
+							<button className='bg-btn p-btn rounded-btn' type='button'>
 								<span className=''>Convert</span>
 							</button>
 						</div>

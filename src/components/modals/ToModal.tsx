@@ -5,7 +5,7 @@ import { IPropsTo } from '../../types/types';
 
 const ToModal: React.FC<IPropsTo> = ({ setCurrentUnitTo }) => {
 	return (
-		<div className='bg-main p-btn rounded-btn'>
+		<div className='bg-main p-btn rounded-btn absolute'>
 			<ul className='list-none w-modal'>
 				{length?.map((value, i) => (
 					<li className='text-white' key={i} onClick={() => setCurrentUnitTo(value)}>

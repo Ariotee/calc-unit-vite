@@ -1,6 +1,6 @@
 import React from 'react';
 
-import FromModal from '../fromModal/FromModal';
+import FromModal from '../modals/FromModal';
 
 const FromField: React.FC = () => {
 	const [selectFrom, setSelectFrom] = React.useState(false);
