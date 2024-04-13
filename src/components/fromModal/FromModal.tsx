@@ -1,11 +1,9 @@
 import React from 'react';
+
 import { length } from '../../data/units';
+import { IPropsFrom } from '../../types/types';
 
-interface IProps {
-	setCurrentUnitFrom: React.Dispatch<React.SetStateAction<string>>;
-}
-
-const FromModal: React.FC<IProps> = ({ setCurrentUnitFrom }) => {
+const FromModal: React.FC<IPropsFrom> = ({ setCurrentUnitFrom }) => {
 	return (
 		<div className='absolute bg-main p-btn rounded-btn'>
 			<ul className='list-none w-modal'>
