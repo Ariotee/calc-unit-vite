@@ -3,6 +3,8 @@ import React from 'react';
 const InputAmount: React.FC = () => {
 	const [valueAmount, setValueAmount] = React.useState('0');
 
+	//const [toConvert, setToConvert] = React.useState('');
+
 	const onChangeAmount = (event: React.ChangeEvent<HTMLInputElement>) => {
 		setValueAmount(event.target.value);
 	};
